@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="22efc94d-ba2b-4340-94f5-65f777be683d" name="默认更改列表" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Oz5xIxUmlIqAUhIhxppxm8zqgu" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dell\Desktop\模板\img" />
+      <recent name="C:\Users\dell\Desktop\模板" />
+      <recent name="C:\Users\dell\Desktop\模板\css" />
+      <recent name="C:\Users\dell\Desktop\移动端首页" />
+      <recent name="C:\Users\dell\Desktop\移动端首页\img" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="22efc94d-ba2b-4340-94f5-65f777be683d" name="默认更改列表" comment="" />
+      <created>1564967829532</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564967829532</updated>
+      <workItem from="1564967831821" duration="6000" />
+      <workItem from="1564967844988" duration="8250000" />
+      <workItem from="1564987312427" duration="4802000" />
+      <workItem from="1565057319070" duration="5335000" />
+      <workItem from="1565075356386" duration="174000" />
+      <workItem from="1565249580305" duration="3375000" />
+      <workItem from="1565253053439" duration="6082000" />
+      <workItem from="1565314238571" duration="7255000" />
+      <workItem from="1565321786731" duration="1679000" />
+      <workItem from="1565332831173" duration="7962000" />
+      <workItem from="1565399231044" duration="1857000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

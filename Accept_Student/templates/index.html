@@ -1,0 +1,540 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>FullScreen Slider</title>
+<meta name="viewport" content="width=device-width">
+
+
+<style>.l-page { visibility: hidden; }</style>
+
+<link rel="preload" as="style" href="{{ url_for('static',filename='css/main.min.css') }}" onload="this.onload=null;this.rel='stylesheet'">
+
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/one.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/two.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/three.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/four.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/five.css') }}">
+
+
+
+</head>
+<body>
+
+    <div class="l-page" data-page-id="index">
+     
+      <div class="l-contents">
+        <div class="p-sections-wrap js-fullscreen-wrap">
+
+
+
+          <div class="p-section p-section--01 js-fullscreen-section">
+            <div class="p-section__in">
+
+             <div id="index-one" class="p-section__text">
+               <div class="title">
+                 <div class="title-name is-animate">
+                   <div>T</div>
+                   <div>h</div>
+                   <div>o</div>
+                   <div>u</div>
+                   <div>g</div>
+                   <div>h</div>
+                   <div>t</div>
+                   <div>W</div>
+                   <div>o</div>
+                   <div>r</div>
+                   <div>k</div>
+                   <div>s</div>
+                 </div>
+               </div>
+               <div class="title-text">
+                 <div class="new is-animate style3">
+                   <div>纳</div>
+                   <div>新</div>
+                   <div>啦</div>
+                   <div>！</div>
+                 </div>
+               </div>
+               <div class="title-img">
+                 <img src="../static/img/img1.png" alt="img1">
+               </div>
+             </div>
+
+            </div>
+          </div>
+
+
+
+          <div class="p-section p-section--02 js-fullscreen-section">
+            <div class="p-section__in">
+
+              <div id="index-two" class="p-section__text">
+                <div class="wrapper">
+                  <div id="barrage"></div>
+                  <div class="title"><div>关</div><div>于</div><div>我</div><div>们</div></div>
+                  <div class="information">
+                    <div class="information-left">
+                      <p class="question">1.我们是谁？</p>
+                      <p class="answer">“ThoughtWorks实验室”，全称"西安邮电大学联合创新实验室"，是ThoughtWorks公司联合西安邮电大学创立。</p>
+                      <p class="question">2.我们在干什么？</p>
+                      <p class="answer">“ThoughtWorks实验室”，在学校计算机学院芸芸实验室中也是唯一一间以前端为首，后台为辅的实干型实验室。</p>
+                      <p class="question">3.我们期待什么？</p>
+                      <p class="answer">“ThoughtWorks实验室”，期待着有对技术的热爱，积极乐观向上的同学的加入。</p>
+                    </div>
+                    <div class="information-right">
+                      <div class="icont">
+                        <img src="{{ url_for('static',filename='img/qq.png') }}">
+                        <img src="{{ url_for('static',filename='img/vx.png') }}">
+                        <img src="{{ url_for('static',filename='img/jianshu.png') }}">
+                        <img src="{{ url_for('static',filename='img/dd.png') }}">
+                      </div>
+                      <div class="icont-inform">
+                        <p class="po-special">254727362</p>
+                        <p><img src="{{ url_for('static',filename='img/ewm.jpg') }}"></p>
+                        <p>ThoughtWorks 西邮联合创新实验室</p>
+                        <p>东区FZ148</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+
+          <div class="p-section p-section--03 js-fullscreen-section">
+            <div class="p-section__in">
+
+              <div id="index-three" class="p-section__text">
+                <div class="firework-grp firework-grp2">
+                  <div class="firework size05 pos1 ">
+                    <div class="drops-grp">
+                      <span class="drop drop-1"></span>
+                      <span class="drop drop-2"></span>
+                      <span class="drop drop-3"></span>
+                      <span class="drop drop-4"></span>
+                    </div>
+                    <div class="drops-grp drops-grp2">
+                      <span class="drop drop-1"></span>
+                      <span class="drop drop-2"></span>
+                      <span class="drop drop-3"></span>
+                      <span class="drop drop-4"></span>
+                    </div>
+                  </div>
+                  <div class="firework size08 pos2 delay1">
+                    <div class="drops-grp">
+                      <span class="drop drop-1"></span>
+                      <span class="drop drop-2"></span>
+                      <span class="drop drop-3"></span>
+                      <span class="drop drop-4"></span>
+                    </div>
+                    <div class="drops-grp drops-grp2">
+                      <span class="drop drop-1"></span>
+                      <span class="drop drop-2"></span>
+                      <span class="drop drop-3"></span>
+                      <span class="drop drop-4"></span>
+                    </div>
+                  </div>
+                  <div class="firework pos3 delay2">
+                    <div class="drops-grp">
+                      <span class="drop drop-1"></span>
+                      <span class="drop drop-2"></span>
+                      <span class="drop drop-3"></span>
+                      <span class="drop drop-4"></span>
+                    </div>
+                    <div class="drops-grp drops-grp2">
+                      <span class="drop drop-1"></span>
+                      <span class="drop drop-2"></span>
+                      <span class="drop drop-3"></span>
+                      <span class="drop drop-4"></span>
+                    </div>
+                  </div>
+                  <div class="firework size15 pos4 ">
+                    <div class="drops-grp">
+                      <span class="drop drop-1"></span>
+                      <span class="drop drop-2"></span>
+                      <span class="drop drop-3"></span>
+                      <span class="drop drop-4"></span>
+                    </div>
+                    <div class="drops-grp drops-grp2">
+                      <span class="drop drop-1"></span>
+                      <span class="drop drop-2"></span>
+                      <span class="drop drop-3"></span>
+                      <span class="drop drop-4"></span>
+                    </div>
+                  </div>
+                  <div class="firework size18 pos5 delay1">
+                    <div class="drops-grp">
+                      <span class="drop drop-1"></span>
+                      <span class="drop drop-2"></span>
+                      <span class="drop drop-3"></span>
+                      <span class="drop drop-4"></span>
+                    </div>
+                    <div class="drops-grp drops-grp2">
+                      <span class="drop drop-1"></span>
+                      <span class="drop drop-2"></span>
+                      <span class="drop drop-3"></span>
+                      <span class="drop drop-4"></span>
+                    </div>
+                  </div>
+                  <div class="firework size20 pos6 delay2">
+                    <div class="drops-grp">
+                      <span class="drop drop-1"></span>
+                      <span class="drop drop-2"></span>
+                      <span class="drop drop-3"></span>
+                      <span class="drop drop-4"></span>
+                    </div>
+                    <div class="drops-grp drops-grp2">
+                      <span class="drop drop-1"></span>
+                      <span class="drop drop-2"></span>
+                      <span class="drop drop-3"></span>
+                      <span class="drop drop-4"></span>
+                    </div>
+                  </div>
+                  <div class="firework size13 pos7">
+                    <div class="drops-grp">
+                      <span class="drop drop-1"></span>
+                      <span class="drop drop-2"></span>
+                      <span class="drop drop-3"></span>
+                      <span class="drop drop-4"></span>
+                    </div>
+                    <div class="drops-grp drops-grp2">
+                      <span class="drop drop-1"></span>
+                      <span class="drop drop-2"></span>
+                      <span class="drop drop-3"></span>
+                      <span class="drop drop-4"></span>
+                    </div>
+                  </div>
+                  <div class="firework size05 pos8">
+                    <div class="drops-grp">
+                      <span class="drop drop-1"></span>
+                      <span class="drop drop-2"></span>
+                      <span class="drop drop-3"></span>
+                      <span class="drop drop-4"></span>
+                    </div>
+                    <div class="drops-grp drops-grp2">
+                      <span class="drop drop-1"></span>
+                      <span class="drop drop-2"></span>
+                      <span class="drop drop-3"></span>
+                      <span class="drop drop-4"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="firework-grp firework-grp3">
+                  <div class="firework size05 pos1 ">
+                    <div class="drops-grp">
+                      <span class="drop drop-1"></span>
+                      <span class="drop drop-2"></span>
+                      <span class="drop drop-3"></span>
+                      <span class="drop drop-4"></span>
+                    </div>
+                    <div class="drops-grp drops-grp2">
+                      <span class="drop drop-1"></span>
+                      <span class="drop drop-2"></span>
+                      <span class="drop drop-3"></span>
+                      <span class="drop drop-4"></span>
+                    </div>
+                  </div>
+                  <div class="firework size08 pos2 delay1">
+                    <div class="drops-grp">
+                      <span class="drop drop-1"></span>
+                      <span class="drop drop-2"></span>
+                      <span class="drop drop-3"></span>
+                      <span class="drop drop-4"></span>
+                    </div>
+                    <div class="drops-grp drops-grp2">
+                      <span class="drop drop-1"></span>
+                      <span class="drop drop-2"></span>
+                      <span class="drop drop-3"></span>
+                      <span class="drop drop-4"></span>
+                    </div>
+                  </div>
+                  <div class="firework pos3 delay2">
+                    <div class="drops-grp">
+                      <span class="drop drop-1"></span>
+                      <span class="drop drop-2"></span>
+                      <span class="drop drop-3"></span>
+                      <span class="drop drop-4"></span>
+                    </div>
+                    <div class="drops-grp drops-grp2">
+                      <span class="drop drop-1"></span>
+                      <span class="drop drop-2"></span>
+                      <span class="drop drop-3"></span>
+                      <span class="drop drop-4"></span>
+                    </div>
+                  </div>
+                  <div class="firework size15 pos4 ">
+                    <div class="drops-grp">
+                      <span class="drop drop-1"></span>
+                      <span class="drop drop-2"></span>
+                      <span class="drop drop-3"></span>
+                      <span class="drop drop-4"></span>
+                    </div>
+                    <div class="drops-grp drops-grp2">
+                      <span class="drop drop-1"></span>
+                      <span class="drop drop-2"></span>
+                      <span class="drop drop-3"></span>
+                      <span class="drop drop-4"></span>
+                    </div>
+                  </div>
+                  <div class="firework size18 pos5 delay1">
+                    <div class="drops-grp">
+                      <span class="drop drop-1"></span>
+                      <span class="drop drop-2"></span>
+                      <span class="drop drop-3"></span>
+                      <span class="drop drop-4"></span>
+                    </div>
+                    <div class="drops-grp drops-grp2">
+                      <span class="drop drop-1"></span>
+                      <span class="drop drop-2"></span>
+                      <span class="drop drop-3"></span>
+                      <span class="drop drop-4"></span>
+                    </div>
+                  </div>
+                  <div class="firework size20 pos6 delay2">
+                    <div class="drops-grp">
+                      <span class="drop drop-1"></span>
+                      <span class="drop drop-2"></span>
+                      <span class="drop drop-3"></span>
+                      <span class="drop drop-4"></span>
+                    </div>
+                    <div class="drops-grp drops-grp2">
+                      <span class="drop drop-1"></span>
+                      <span class="drop drop-2"></span>
+                      <span class="drop drop-3"></span>
+                      <span class="drop drop-4"></span>
+                    </div>
+                  </div>
+                  <div class="firework size13 pos7">
+                    <div class="drops-grp">
+                      <span class="drop drop-1"></span>
+                      <span class="drop drop-2"></span>
+                      <span class="drop drop-3"></span>
+                      <span class="drop drop-4"></span>
+                    </div>
+                    <div class="drops-grp drops-grp2">
+                      <span class="drop drop-1"></span>
+                      <span class="drop drop-2"></span>
+                      <span class="drop drop-3"></span>
+                      <span class="drop drop-4"></span>
+                    </div>
+                  </div>
+                  <div class="firework size05 pos8">
+                    <div class="drops-grp">
+                      <span class="drop drop-1"></span>
+                      <span class="drop drop-2"></span>
+                      <span class="drop drop-3"></span>
+                      <span class="drop drop-4"></span>
+                    </div>
+                    <div class="drops-grp drops-grp2">
+                      <span class="drop drop-1"></span>
+                      <span class="drop drop-2"></span>
+                      <span class="drop drop-3"></span>
+                      <span class="drop drop-4"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="index-three-ziti1">你了解web吗？</div>
+                <div class="lunbo-box">
+                  <ul id="write-list">
+                    <li class="write1">HTML 不是一种编程语言，而是一种标记语言，是网页制作所必备的。“超文本”就是指页面内可以包含图片、链接，甚至音乐、程序等非文字元素。</li>
+                    <li class="write2">css是一种用来表现HTML（标准通用标记语言的一个应用）或XML（标准通用标记语言的一个子集）等文件样式的计算机语言。</li>
+                    <li class="write3">JavaScript是互联网上最流行的脚本语言，这门语言可用于HTML和web，更可广泛用于服务器、PC、笔记本电脑、平板电脑和智能手机等设备。</li>
+                  </ul>
+                  <img src="{{ url_for('static',filename='img/HTML.png') }}" class="img1 active1">
+                  <img src="{{ url_for('static',filename='img/css.png') }}" class="img2">
+                  <img src="{{ url_for('static',filename='img/js.png') }}" class="img3">
+                </div>
+                <div class="sea">
+                  <div class="sea1"></div>
+                  <div class="sea2"></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+
+          <div class="p-section p-section--04 js-fullscreen-section">
+            <div class="p-section__in">
+
+              <div id="index-four" class="p-section__text">
+                <div class="img-con1">
+                  <img src="https://hbimg.huabanimg.com/3a2f0e885d166f7ea050c0d9bdff0beda731754b10a08-jwg8Fb_fw658" alt="">
+                </div>
+                <div class="img-con2">
+                  <img src="https://hbimg.huabanimg.com/46519d70464270985178102aeb22093443b34e8f8215-jSQWwa_fw658" alt="">
+                </div>
+
+                <div class="pageLoading">
+                  <div class="monster">
+                    <div class="eye">
+                      <div class="eyeball"></div>
+                    </div>
+                    <div class="month"></div>
+                  </div>
+                </div>
+                <div class="pageLoadinganother">
+                  <div class="monster">
+                    <div class="eye">
+                      <div class="eyeball"></div>
+                    </div>
+                    <div class="month"></div>
+                  </div>
+                </div>
+
+                <div class="bounce courseLogo" id="sDiv">
+                  <span class="letter">What</span>
+                  <span class="letter">do</span>
+                  <span class="letter">we</span>
+                  <span class="letter">learn</span>
+                  <span class="letter">?</span>
+                </div>
+                <div class="courseLogo big">
+                  <div class="courseBefore"><p class="small">ES6</p></div>
+                  <div class="courseAfter">
+                    <p>
+                      ES6 主要是为了解决 ES5 的先天不足，但是目前浏览器的 JavaScript 是 ES5 版本，大多数高版本的浏览器也支持 ES6，不过只实现了 ES6 的部分 功能。
+                    </p>
+                  </div>
+                </div>
+                <div class="courseLogo big">
+                  <div class="courseBefore"><p class="small">jQuery</p></div>
+                  <div class="courseAfter">
+                    <p>
+                      jQuery是一个JavaScript函数库,还提供了大量的插件。
+                    </p>
+                    <p>
+                      jQuery库包含以下功能:JavaScript 特效和动画,HTML DOM 遍历和修改,AJAX和Utilities
+                    </p>
+                  </div>
+                </div>
+                <div class="courseLogo big">
+                  <div class="courseBefore"><p class="small"> Vue.js</p></div>
+                  <div class="courseAfter">
+                    <p>
+                      Vue 只关注视图层， 采用自底向上增量开发的设计。
+                    </p>
+                    <p>
+                      Vue 的目标是通过尽可能简单的 API 实现响应的数据绑定和组合的视图组件。
+                    </p></div>
+                </div>
+                <div class="courseLogo">
+                  <div class="courseBefore"><p class="small">  Bootstrap</p></div>
+                  <div class="courseAfter">
+                    <p>
+                      Bootstrap，来自 Twitter，是目前最受欢迎的前端框架。
+                    </p >
+                    <p>
+                      Bootstrap 是全球最受欢迎的前端组件库，用于开发响应式布局、移动设备优先的 WEB 项目。
+                    </p ></div>
+                </div>
+                <div class="courseLogo">
+                  <div class="courseBefore"><p class="small"> AJAX</p></div>
+                  <div class="courseAfter">
+                    <p>
+                      AJAX 不是新的编程语言，而是一种使用现有标准的新方法。
+                    </p >
+                    <p>
+                      AJAX 最大的优点是在不重载整个页面的情况下，可以与服务器交换数据并更新部分网页内容。
+                    </p ></div>
+                </div>
+                <div class="courseLogo">
+                  <div class="courseBefore"><p class="small">  Node.js</p></div>
+                  <div class="courseAfter"><p>
+                    简单的说 Node.js 就是运行在服务端的 JavaScript。
+                  </p >
+
+                    <p>
+                      Node.js是一个事件驱动I/O服务端JavaScript环境，基于Google的V8引擎,性能非常好。
+                    </p >
+                  </div>
+                </div>
+              </div>
+
+              </div>
+            </div>
+
+
+
+
+          <div class="p-section p-section--05 js-fullscreen-section">
+            <div class="p-section__in">
+
+              <div id="index-five" class="p-section__text" >
+                <div class="container">
+
+                  <div class="wrapper">
+
+                    <div class="panel">
+                      <div class="content login">
+                        <div class="switch">
+                          <div class="textcontainer">
+                            <span class="particletext confetti"><span class="text" style="color: #FF82AB ">ThoughtWorks</span></span>
+                          </div>
+                          <span id='login' class='active'><a href="{{url_for("index")}}" style="text-decoration: none; color:  #FFAEB9;">登录</a></span><span>/</span><span id='signup'><a href="{{url_for("login")}}" style="text-decoration: none; color:  #FFAEB9;">注册</a></span>
+                        </div>
+                        <form method="post">
+                          <div id='qq' class="input"  placeholder='学号'><input type="text" style= "background-color:transparent " name="number"></div>
+                          <div class="input" placeholder='密码'><input type="password" style= "background-color:transparent " name="password"></div>
+
+                          <div id='repeat' class="input" placeholder='Repeat'><input type="password"></div>
+                            {% for message in get_flashed_messages() %}
+                            <p>{{message}}</p>
+                            {% endfor %}
+
+                            <button>LOGIN</button>
+                        </form>
+
+                      </div>
+
+                    </div>
+                    <div class="wrapper1">
+                      <ul class="bg-bubbles">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+                <script type="text/javascript" src="{{ url_for("static",filename="js/six.js") }}"></script>
+              </div>
+
+            </div>
+          </div>
+
+
+
+        </div>
+        <div class="p-pager js-fullscreen-pager">
+          <div class="p-pager__in">
+            <div class="p-pager__pointer js-fullscreen-pager-pointer js-hover"></div>
+            <div class="p-pager__pointer js-fullscreen-pager-pointer js-hover"></div>
+            <div class="p-pager__pointer js-fullscreen-pager-pointer js-hover"></div>
+            <div class="p-pager__pointer js-fullscreen-pager-pointer js-hover"></div>
+            <div class="p-pager__pointer js-fullscreen-pager-pointer js-hover"></div>
+            <div class="p-pager__bar"></div>
+          </div>
+        </div>
+        <div class="p-background js-fullscreen-bg"></div>
+      </div>
+    </div>
+    <script src="{{ url_for('static',filename='js/main.min.js') }}"></script>
+      <script src="{{ url_for('static',filename='js/four.js') }}"></script>
+  </body>
+</html>

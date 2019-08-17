@@ -1,0 +1,259 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+@font-face{
+    font-family: myfont4;
+    src: url("../../font-family/myfont4.ttf");
+}
+#index-four{
+    display: flex;
+    height:100vh;
+    width: 100vw;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-size: 100%;
+    overflow: hidden;
+    /*background-image: url(https://hbimg.huabanimg.com/7a45b3bef428a517743fd73a48be9718d28d85edf042-Cl8haD_fw658);*/
+   
+}
+/* 标题 */
+#sDiv{
+    display: block;
+    position: absolute;
+    height: 10%;
+    width: 80%;
+    color: black;
+    margin-top: -23%;
+    z-index: 1000;
+    font-family: myfont4, fantasy;
+}
+.letter {
+    /*animation: bounce 0.75s cubic-bezier(0.05, 0, 0.2, 1) infinite alternate;*/
+    display: inline-block;
+    transform: translate3d(0, 0, 0);
+    font-size: 50px;
+    color: black;
+    margin: auto -7px;
+    padding: 0 10px;
+    font-weight: 500;
+
+  }
+  .letter:nth-child(1) {
+    animation-delay: 0s;
+  }
+  .letter:nth-child(2) {
+    animation-delay: 0.0833333333s;
+  }
+  .letter:nth-child(3) {
+    animation-delay: 0.1666666667s;
+  }
+  .letter:nth-child(4) {
+    animation-delay: 0.25s;
+  }
+  .letter:nth-child(5) {
+    animation-delay: 0.3333333333s;
+  }
+  .letter:nth-child(6) {
+    animation-delay: 0.4166666667s;
+  }
+  
+  
+  @keyframes bounce {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(0, -1em, 0);
+    }
+  }
+  /* 翻转 */
+.courseLogo{
+   height: 25%;
+   width: 40%;
+    box-sizing: border-box;
+    perspective: 800px;
+    z-index: 1000;
+    left: 10%;
+    margin-top: 20px;
+}
+.big{
+   margin-left: 12%;
+}
+.courseBefore{
+    width:70%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    font-family: myfont4, fantasy;
+    font-weight: bolder;
+    font-size: 40px;
+    color: black;
+    background-image: url(https://hbimg.huabanimg.com/eeccd14cc8341e5c94c7cf8c6501523b1d6585231a98-vPnpDs_fw658);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 120% 100%;
+    backface-visibility: hidden;
+    transition: 1s;
+    opacity: 0.6;
+    border-radius:18px; 
+    z-index: 1000;
+}
+.courseAfter{
+   background-image: url(https://hbimg.huabanimg.com/1c88731e70e6478756e11e53d8edbda1d882b647a2f2-ndMRfe_fw658);
+    /* font-size: 30px; */
+    text-indent: 2em;
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    color: black;
+    transform: rotateY(-180deg);
+    backface-visibility: hidden;
+    transition: 1s;
+    border-radius:18px; 
+    z-index:1000;
+}
+
+ .courseLogo:hover .courseBefore{
+    transform: rotateY(180deg);
+}
+.courseLogo:hover .courseAfter{
+    transform: rotateY(0deg);
+}
+.small{
+    margin-top: 6%!important;
+}
+.courseAfter>p{
+    padding: 5px;
+    text-align: start;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: myfont4, sans-serif;
+}
+/* 动画 */
+.monster{
+    height: 100px;
+    width: 110px;
+    border-radius: 20px;
+    background-color:#e55a54;
+    display: flex;
+    flex-direction:column;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: jumping 0.8s infinite alternate;
+    z-index: 0;
+}
+.monster .eye{
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    background-color: white;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+.monster .eye .eyeball{
+    width: 50%;
+    height: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #0c4475;
+    animation: eyemove 1.6s infinite alternate;
+    z-index: 0;
+}
+.monster .month{
+    width: 32%;
+    height: 12px;
+    border-radius: 12px;
+    background-color: white;
+    z-index: 0;
+}
+.monster:before,
+.monster:after
+{
+    content: "";
+    display: block;
+    width: 20%;
+    height: 10px;
+    border-radius: 10px;
+    background-color: orchid;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    z-index: 0;
+}
+.monster::before{
+    transform: translateX(-70%) rotate(45deg);
+}
+.monster::after{
+    transform: translateX(-30%) rotate(-45deg);
+}
+.monster.blue{
+    background-color: #0c4475;
+    animation-delay:0.5s ;
+}
+@keyframes jumping {
+    50%{
+        top: 0px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+    100%{
+        top: 80px;
+        box-shadow: 0 120px 20px rgba(0,0,0,0.1);
+
+    }
+}
+@keyframes eyemove {
+    0%,10%{
+        transform: translate(50%);
+    }
+    90%,
+    100%{
+        transform: translate(-50%);
+    }
+}
+.pageLoading{
+    position: absolute;
+    top: 35%;
+    left:39%;
+    transition: opacity 0.5s;
+    z-index: 0;
+}
+.pageLoadinganother{
+    position: absolute;
+    top:35%;
+    right: 39%;
+    transition: opacity 0.5s;
+    z-index: 0;
+}
+.pageLoadinganother>.monster{
+    background-color: #0c4475;
+    animation-delay:0.5s ;
+}
+.img-con1{
+    z-index: 1000;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.img-con2{
+    z-index: 1000;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#index-four img{
+    height: 200px;
+    width: 200px;
+}
